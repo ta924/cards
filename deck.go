@@ -22,7 +22,7 @@ func newDeck() deck {
 	cardSuites := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
 	//Create a slice of values
 	cardValues := []string{"Ace", "Two", "Three", "Four", "Five", "Six",
-		"Seven", "Eight", "Nine", "Jack", "Queen", "King"}
+		"Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"}
 
 	//Usage of underscore tells Go we don't care about it or plan to use it
 	for _, suit := range cardSuites {
